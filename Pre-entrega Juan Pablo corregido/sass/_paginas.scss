@@ -1,0 +1,54 @@
+@import "_variables";
+
+body {
+  background-color: #ffffff;
+}
+/* pagina indice */
+.main--index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .main--index__contenedor1 {
+    display: flex;
+    height: auto;
+    margin-left: $margenizquierdo;
+    h1 {
+      font-size: 35px;
+    }
+    flex-direction: column;
+    p {
+      width: 400px;
+      font-size: 20px;
+    }
+  }
+  .main--index__contenedor2 {
+    display: flex;
+    background-image: url(cordillera.jpg);
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    a {
+      text-decoration: none;
+      border: solid 2px #00bcd452;
+      background-color: #00bcd452;
+      border-radius: 20px;
+      color: whitesmoke;
+      margin-top: 200px;
+      margin-right: 30px;
+      font-size: 20px;
+      margin-left: 30px;
+      padding: 10px;
+      &:hover {
+        background-color: #00bbd469;
+      }
+    }
+  }
+}
+/* pagina aventura */
+.contenedor--aventura {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}

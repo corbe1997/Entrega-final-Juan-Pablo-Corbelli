@@ -1,0 +1,130 @@
+.header {
+  /* nesting de etiquetas */
+}
+.header .header--nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.header .header--nav .header--nav__contenedorImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+}
+.header .header--nav .header--nav__contenedorEnlaces {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .header--nav .header--nav__contenedorEnlaces .header--nav__contenedorEnlaces--enlace {
+  text-decoration: none;
+  color: black;
+  background-color: #48cae4;
+  border-radius: 20px;
+  padding: 15px 15px;
+  /* nesting de propiedades */
+  font-family: arial;
+  font-size: 15px;
+}
+.header .header--nav .header--nav__contenedorEnlaces .header--nav__contenedorEnlaces--enlace:hover {
+  background-color: #ade8f4;
+}
+
+/* modulo o partials */
+body {
+  background-color: #ffffff;
+}
+
+/* pagina indice */
+.main--index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main--index .main--index__contenedor1 {
+  display: flex;
+  height: auto;
+  margin-left: 30px;
+  flex-direction: column;
+}
+.main--index .main--index__contenedor1 h1 {
+  font-size: 35px;
+}
+.main--index .main--index__contenedor1 p {
+  width: 400px;
+  font-size: 20px;
+}
+.main--index .main--index__contenedor2 {
+  display: flex;
+  background-image: url(cordillera.jpg);
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.main--index .main--index__contenedor2 a {
+  text-decoration: none;
+  border: solid 2px rgba(0, 188, 212, 0.3215686275);
+  background-color: rgba(0, 188, 212, 0.3215686275);
+  border-radius: 20px;
+  color: whitesmoke;
+  margin-top: 200px;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-left: 30px;
+  padding: 10px;
+}
+.main--index .main--index__contenedor2 a:hover {
+  background-color: rgba(0, 187, 212, 0.4117647059);
+}
+
+/* pagina aventura */
+.contenedor--aventura {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  width: auto;
+  height: 60px;
+  margin-top: 6%;
+  align-items: center;
+  background-color: rgba(0, 149, 199, 0.8823529412);
+  flex-direction: column;
+}
+.footer .footer__contenedorbotones {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.footer p {
+  font-size: 15px;
+}
+
+@media (max-width: 540px) {
+  .contenedor--aventura {
+    flex-direction: column;
+  }
+  .main--index {
+    flex-direction: column;
+  }
+  .main--index .main--index__contenedor1 {
+    margin-left: 0px;
+  }
+  .main--index .main--index__contenedor1--p {
+    width: 40px;
+  }
+  .main--index .main--index__contenedor2 {
+    width: 350px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */
