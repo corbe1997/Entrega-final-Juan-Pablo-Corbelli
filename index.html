@@ -1,113 +1,171 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon" />
+    <!-- styles css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../sass/main.css" />
+    <!-- fontsgoogle -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inicio</title>
-  <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon" />
-  <!-- styles css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../sass/main.css" />
-  <!-- fontsgoogle -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="header--nav__contenedorImg--enlace" href="">
-          <img src="../imagenes/logo.svg" alt="logo" class="header--nav__contenedorImg--enlace__img" />
-        </a>
-        <h5 class="header--nav__contenedorImg--enlace__img">AndesXplore</h5>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 d-flex justify-content-evenly" style="--bs-scroll-height: 100pxb ">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/Sobre-nosotros.html">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/Aventura.html">Aventura</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/cordillera-argentina.html">Cordillera Argentina</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="header--nav__contenedorImg--enlace" href="">
+            <img
+              src="../imagenes/logo.svg"
+              alt="logo"
+              class="header--nav__contenedorImg--enlace__img"
+            />
+          </a>
+          <h5 class="header--nav__contenedorImg--enlace__img">AndesXplore</h5>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 d-flex justify-content-evenly"
+              style="--bs-scroll-height: 100pxb"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Sobre-nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Aventura.html">Aventura</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/cordillera-argentina.html"
+                  >Cordillera Argentina</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </header>
+
+    <main class="main--index">
+      <div class="main--index__contenedor1">
+        <h1>Explorando los andes</h1>
+
+        <p class="main--index__contenedor1--p">
+          Los Andes patagónicos son una región llena de maravillas que invita a
+          la exploración y al asombro. Esta vasta extensión de montañas,
+          glaciares, lagos y bosques ofrece un escenario impresionante para los
+          amantes de la naturaleza y los aventureros intrépidos. Adentrarse en
+          ellos es una experiencia que te sumergirá en un mundo de maravillas
+          naturales. Si estás dispuesto a aventurarte en estos paisajes
+          sublimes, los Andes patagónicos argentinos te recibirán con los brazos
+          abiertos y te brindarán una experiencia inolvidable en medio de la
+          naturaleza salvaje. Estas preparado para esta aventura?
+        </p>
       </div>
-    </nav>
-  </header>
+      <div class="main--index__contenedor2">
+        <a href="pages/Aventura.html">Aventura</a>
+        <a href="pages/contacto.html">Contacto</a>
+      </div>
+    </main>
 
-  <main class="main--index">
-    <div class="main--index__contenedor1">
-      <h1>Explorando los andes</h1>
+    <footer class="footer">
+      <div class="footer__contenedorbotones">
+        <a href="https://www.facebook.com/"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-facebook"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+            /></svg
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-instagram"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+            />
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path d="M16.5 7.5l0 .01" /></svg
+        ></a>
+        <a href="./pages/contacto.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-user-circle"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+            <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path
+              d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"
+            /></svg
+        ></a>
+      </div>
+      <p>© 2000 creado por estudio JPC.901</p>
+    </footer>
 
-      <p class="main--index__contenedor1--p">
-        Los Andes patagónicos son una región llena de maravillas que invita a
-        la exploración y al asombro. Esta vasta extensión de montañas,
-        glaciares, lagos y bosques ofrece un escenario impresionante para los
-        amantes de la naturaleza y los aventureros intrépidos. Adentrarse en
-        ellos es una experiencia que te sumergirá en un mundo de maravillas
-        naturales. Desde la grandiosidad de los glaciares hasta la imponente
-        belleza del Fitz Roy, pasando por la serenidad de los lagos andinos y
-        las vistas impresionantes del Paso de los Libertadores, cada paso te
-        acerca a la asombrosa diversidad y magnificencia de esta región. Si
-        estás dispuesto a aventurarte en estos paisajes sublimes, los Andes
-        patagónicos argentinos te recibirán con los brazos abiertos y te
-        brindarán una experiencia inolvidable en medio de la naturaleza
-        salvaje. Estas preparado para esta aventura?
-      </p>
-    </div>
-    <div class="main--index__contenedor2">
-      <a href="pages/Aventura.html">Aventura</a>
-      <a href="pages/contacto.html">Contacto</a>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__contenedorbotones">
-      <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24"
-          stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-        </svg></a>
-      <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-brand-instagram" width="20" height="20" viewBox="0 0 24 24"
-          stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-          <path d="M16.5 7.5l0 .01" />
-        </svg></a>
-      <a href="./pages/contacto.html"><svg xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-user-circle" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
-          stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-          <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-          <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
-        </svg></a>
-    </div>
-    <p>© 2000 creado por estudio JPC.901</p>
-  </footer>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-  crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
