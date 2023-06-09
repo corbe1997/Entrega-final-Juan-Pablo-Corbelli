@@ -1,0 +1,8 @@
+.footer-1 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background-color: #00b4d8bb;
+  justify-content: space-around;
+  margin-top: 40px;
+}

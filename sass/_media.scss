@@ -1,0 +1,17 @@
+@media (max-width: 540px) {
+  .contenedor--aventura {
+    flex-direction: column;
+  }
+  .main--index {
+    flex-direction: column;
+    .main--index__contenedor1{
+      margin-left: 0px;
+    }
+    .main--index__contenedor1--p{
+      width: 40px;
+    }
+    .main--index__contenedor2{
+      width: 350px;
+    }
+  }
+}
