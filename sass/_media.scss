@@ -2,16 +2,93 @@
   .contenedor--aventura {
     flex-direction: column;
   }
-  .main--index {
+  /* contacto */
+  .main--contacto {
     flex-direction: column;
-    .main--index__contenedor1{
-      margin-left: 0px;
+    height: 160vh;
+    .main--contacto__parrafo {
+      width: 100%;
+      margin: 30px;
+      padding: 0px 30px;
+      text-align: center;
     }
-    .main--index__contenedor1--p{
-      width: 40px;
+    .main--contacto__iframe{
+      width: 340px;
+      margin: 30px;
     }
-    .main--index__contenedor2{
-      width: 350px;
+    .main--contacto__form {
+      display: flex;
+      flex-direction: column;
+      margin-left: 60px;
+      margin-right: 60px;
+      padding: 10px;
+      background-color: white;
+      margin: 10px;
     }
   }
+
+  /* Index */
+  .main--index2{
+    .main--index2__section1{
+      .main--index2__section1--titulo{
+      font-size: 30px;
+      }
+      .main--index2__section1--contenedorBotones{
+        width: 320px;
+        .main--index2__section1--contenedorBotones-btn{
+          margin: 0px 20px;
+        }
+      }
+    }
+    .main--index2__section2{
+      height: 100vh;
+      margin-top: -80px;
+      .main--index2__section2--article{
+        background-color: rgba(255, 255, 255, 0.34);
+        margin: 6px;
+        padding: 20px;
+        margin-top: 200px;
+        border-radius: 30px;
+        .main--index2__section2--article__p{
+
+        }
+      }
+    }
+  }
+  /* Sobre nosotros */
+  .main--sobreNosotros{
+    height: 144vh;
+    .main--sobreNosotros__titulo{
+      margin-top: 58px;
+    }
+  }
+  /* Cordillera */
+  .main--cordilleraArgentina{
+    flex-direction: column;
+    height: auto;
+    .main--cordilleraArgentina__section1{
+      .main--cordilleraArgentina__section1--parrafo{
+        width: auto;
+        margin: 20px;
+      }
+    }
+    .main--cordilleraArgentina__section2{
+      border-radius: 0px;
+      .main--cordilleraArgentina__section2--iframe{
+        width: auto;
+        height: auto;
+        border-radius: 0px;
+      }
+      .main--cordilleraArgentina__section2--parrafo2{
+        width: auto;
+      }
+    }
+  }
+
+
+
+  .footer{
+    height: 100px;
+  }
 }
+
