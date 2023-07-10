@@ -1,4 +1,4 @@
-@media (max-width: 540px) {
+@media (max-width: 760px) {
   .contenedor--aventura {
     flex-direction: column;
   }
@@ -32,9 +32,13 @@
     .main--index2__section1{
       .main--index2__section1--titulo{
       font-size: 30px;
+      margin: 30px;
+      text-align: center;
+
       }
       .main--index2__section1--contenedorBotones{
         width: 320px;
+        margin: 30px;
         .main--index2__section1--contenedorBotones-btn{
           margin: 0px 20px;
         }
@@ -49,17 +53,18 @@
         padding: 20px;
         margin-top: 200px;
         border-radius: 30px;
-        .main--index2__section2--article__p{
-
-        }
       }
     }
   }
   /* Sobre nosotros */
   .main--sobreNosotros{
     height: 144vh;
+
     .main--sobreNosotros__titulo{
-      margin-top: 58px;
+      margin: 30px;
+    }
+    .main--sobreNosotros__parrafo{
+      margin: 30px;
     }
   }
   /* Cordillera */

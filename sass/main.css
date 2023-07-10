@@ -103,6 +103,7 @@ body {
   margin-bottom: 100px;
   font-size: 60px;
   margin-top: 30px;
+  text-align: center;
 }
 .main--index2 .main--index2__section1 .main--index2__section1--contenedorBotones {
   display: flex;
@@ -179,29 +180,30 @@ body {
   width: 150px;
   margin-left: 60px;
   color: whitesmoke;
+  text-align: center;
 }
 
 /* pagina sobre nosotros */
 .main--sobreNosotros {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.342)), url(../imagenes/cordilleragod1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: flex-start;
   align-items: center;
   background-attachment: fixed;
+  height: 120vh;
 }
 .main--sobreNosotros .main--sobreNosotros__titulo {
-  margin-top: 150px;
+  margin: 30px;
   color: whitesmoke;
 }
 .main--sobreNosotros .main--sobreNosotros__parrafo {
   width: 80%;
   text-align: center;
   color: white;
-  margin-top: 10px;
+  margin: 30px;
 }
 
 /* Pagina Cordillera Argentina */
@@ -214,11 +216,13 @@ body {
   height: 100vh;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .main--cordilleraArgentina .main--cordilleraArgentina__section1 .main--cordilleraArgentina__section1--parrafo {
   width: 700px;
   font-size: 18px;
   color: whitesmoke;
+  text-align: center;
 }
 .main--cordilleraArgentina .main--cordilleraArgentina__section2 {
   display: flex;
@@ -251,6 +255,7 @@ body {
 .main--cordilleraArgentina .main--cordilleraArgentina__section2 .main--cordilleraArgentina__section2--parrafo2 {
   width: 400px;
   margin-top: 15px;
+  text-align: center;
 }
 
 .footer {
@@ -266,11 +271,18 @@ body {
   justify-content: center;
   margin-top: 5px;
 }
+.footer .footer__contenedorbotones .footer__contenedorbotones-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+}
 .footer p {
   font-size: 15px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 760px) {
   .contenedor--aventura {
     flex-direction: column;
   }
@@ -301,9 +313,12 @@ body {
   /* Index */
   .main--index2 .main--index2__section1 .main--index2__section1--titulo {
     font-size: 30px;
+    margin: 30px;
+    text-align: center;
   }
   .main--index2 .main--index2__section1 .main--index2__section1--contenedorBotones {
     width: 320px;
+    margin: 30px;
   }
   .main--index2 .main--index2__section1 .main--index2__section1--contenedorBotones .main--index2__section1--contenedorBotones-btn {
     margin: 0px 20px;
@@ -324,7 +339,10 @@ body {
     height: 144vh;
   }
   .main--sobreNosotros .main--sobreNosotros__titulo {
-    margin-top: 58px;
+    margin: 30px;
+  }
+  .main--sobreNosotros .main--sobreNosotros__parrafo {
+    margin: 30px;
   }
   /* Cordillera */
   .main--cordilleraArgentina {

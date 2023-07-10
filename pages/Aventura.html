@@ -1,229 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="title" content="AndesXplore" />
-    <meta
-      name="description"
-      content="Descubre la majestuosidad de los Andes con nuestras emocionantes actividades turísticas. Explora senderos escénicos, disfruta de deportes de aventura y sumérgete en la cultura local. ¡Una experiencia inolvidable en medio de la naturaleza asombrosa!"
-      <meta
-      name="keywords"
-      content="Andes, actividades turísticas, senderismo, montañismo, aventura, naturaleza, turismo, cultura local, paisajes, exploración, excursiones, ecoturismo, trekking, rutas panorámicas, deportes extremos, turismo sostenible, viajes, turistas, turismo de montaña, turismo rural, experiencias, guías turísticos, fauna, flora, turismo activo, turismo de aventura, turismo en Sudamérica, turismo en América del Sur."
-    />
-    <meta name="author" content="Juan Corbelli" />
-    <title>Aventura</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../sass/main.css" />
 
-    <!-- fontsgoogle -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="../imagenes/icono.png"
-      type="image/x-icon"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="AndesXplore" />
+  <meta name="description"
+    content="Descubre la majestuosidad de los Andes con nuestras emocionantes actividades turísticas. Explora senderos escénicos, disfruta de deportes de aventura y sumérgete en la cultura local. ¡Una experiencia inolvidable en medio de la naturaleza asombrosa!"
+    <meta name="keywords"
+    content="Andes, actividades turísticas, senderismo, montañismo, aventura, naturaleza, turismo, cultura local, paisajes, exploración, excursiones, ecoturismo, trekking, rutas panorámicas, deportes extremos, turismo sostenible, viajes, turistas, turismo de montaña, turismo rural, experiencias, guías turísticos, fauna, flora, turismo activo, turismo de aventura, turismo en Sudamérica, turismo en América del Sur." />
+  <meta name="author" content="Juan Corbelli" />
+  <title>Aventura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../sass/main.css" />
 
-  <body class="h-100">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="header--nav__contenedorImg--enlace" href="">
-            <img
-              src="../imagenes/logo.svg"
-              alt="logo"
-              class="header--nav__contenedorImg--enlace__img"
-            />
-          </a>
-          <h5 class="header--nav__contenedorImg--enlace__img">AndesXplore</h5>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul
-              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 d-flex justify-content-evenly"
-              style="--bs-scroll-height: 100pxb"
-            >
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Sobre-nosotros.html"
-                  >Sobre nosotros</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Aventura.html">Aventura</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cordillera-argentina.html"
-                  >Cordillera Argentina</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+  <!-- fontsgoogle -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="../imagenes/icono.png" type="image/x-icon" />
+</head>
+
+<body class="h-100">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="header--nav__contenedorImg--enlace" href="">
+          <img src="../imagenes/logo.svg" alt="logo" class="header--nav__contenedorImg--enlace__img" />
+        </a>
+        <h5 class="header--nav__contenedorImg--enlace__img">AndesXplore</h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 d-flex justify-content-evenly"
+            style="--bs-scroll-height: 100pxb">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sobre-nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aventura.html">Aventura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cordillera-argentina.html">Cordillera Argentina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <div
-      class="main d-flex flex-row justify-content-evenly flex-wrap pt-4 pb-4"
-      style="
+  <div class="main d-flex flex-row justify-content-evenly flex-wrap pt-4 pb-4" style="
         background-image: url(../imagenes/cordillera2.webp);
         background-repeat: no-repeat;
         background-size: cover;
-      "
-    >
-      <div class="card my-3" style="width: 18rem">
-        <img
-          src="/imagenes/hombreescalando.webp"
-          class="card-img-top"
-          alt="hombre Escalando"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Escalada</h5>
-          <p class="card-text">
-            Descubrí la emocionante escalada en los Andes Patagónicos! Nuestro
-            equipo de guías expertos te acompañará en cada paso del camino,
-            asegurándote una experiencia segura y enriquecedora. Aprenderás
-            técnicas de escalada y desarrollarás habilidades que te permitirán
-            superar tus propios límites mientras te sumergís en la grandiosidad
-            de la cordillera.
-          </p>
-        </div>
-      </div>
-
-      <div class="card my-3" style="width: 18rem">
-        <img
-          src="/imagenes/rafting.webp"
-          class="card-img-top"
-          alt="bote En El Rio"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Rafting</h5>
-          <p class="card-text">
-            ¡Prepárate para un emocionante rafting en los Andes Patagónicos! No
-            importa si sos principiante o un aventurero acuático experimentado,
-            hay opciones para todos los niveles. Nuestros diferentes recorridos
-            te van a permitir elegir la intensidad y la duración que se adapten
-            a tus preferencias. Estas listo para la aventura?
-          </p>
-        </div>
-      </div>
-
-      <div class="card my-3" style="width: 18rem">
-        <img
-          src="/imagenes/treking2.webp"
-          class="card-img-top"
-          alt="Gente Haciendo Treking"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Trekking</h5>
-          <p class="card-text">
-            ¡Aventurero, te esperamos para un trekking inolvidable en los
-            imponentes Andes Patagónicos! Descubrí paisajes alucinantes, conectá
-            con la naturaleza y viví momentos únicos. Nuestro equipo de guías
-            expertos te acompañara, compartiendo su sabiduría sobre la flora, la
-            fauna y más. ¡Te esperamos para vivir un trekking que te va a dejar
-            con la boca abierta!
-          </p>
-        </div>
+      ">
+    <div class="card my-3" style="width: 18rem">
+      <img src="/imagenes/hombreescalando.webp" class="card-img-top" alt="hombre Escalando" />
+      <div class="card-body">
+        <h5 class="card-title text-center">Escalada</h5>
+        <p class="card-text text-center">
+          Descubrí la emocionante escalada en los Andes Patagónicos! Nuestro
+          equipo de guías expertos te acompañará en cada paso del camino,
+          asegurándote una experiencia segura y enriquecedora. Aprenderás
+          técnicas de escalada y desarrollarás habilidades que te permitirán
+          superar tus propios límites mientras te sumergís en la grandiosidad
+          de la cordillera.
+        </p>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer__contenedorbotones">
-        <a href="https://www.facebook.com/"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-facebook"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path
-              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
-            /></svg
-        ></a>
-        <a href="https://www.instagram.com/"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-instagram"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path
-              d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
-            />
-            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-            <path d="M16.5 7.5l0 .01" /></svg
-        ></a>
-        <a href="contacto.html"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-user-circle"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-            <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-            <path
-              d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"
-            /></svg
-        ></a>
-      </div>
-      <p>© 2000 creado por estudio JPC.901</p>
-    </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="card my-3" style="width: 18rem">
+      <img src="/imagenes/rafting.webp" class="card-img-top" alt="bote En El Rio" />
+      <div class="card-body">
+        <h5 class="card-title text-center">Rafting</h5>
+        <p class="card-text text-center">
+          ¡Prepárate para un emocionante rafting en los Andes Patagónicos! No
+          importa si sos principiante o un aventurero acuático experimentado,
+          hay opciones para todos los niveles. Nuestros diferentes recorridos
+          te van a permitir elegir la intensidad y la duración que se adapten
+          a tus preferencias. Estas listo para la aventura?
+        </p>
+      </div>
+    </div>
+
+    <div class="card my-3" style="width: 18rem">
+      <img src="/imagenes/treking2.webp" class="card-img-top" alt="Gente Haciendo Treking" />
+      <div class="card-body">
+        <h5 class="card-title text-center">Trekking</h5>
+        <p class="card-text text-center">
+          ¡Aventurero, te esperamos para un trekking inolvidable en los
+          imponentes Andes Patagónicos! Descubrí paisajes alucinantes, conectá
+          con la naturaleza y viví momentos únicos. Nuestro equipo de guías
+          expertos te acompañara, compartiendo su sabiduría sobre la flora, la
+          fauna y más. ¡Te esperamos para vivir un trekking que te va a dejar
+          con la boca abierta!
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <section class="footer__contenedorbotones">
+      <ul class="footer__contenedorbotones-ul">
+        <li>
+          <a href="https://www.facebook.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20"
+              height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="20"
+              height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M16.5 7.5l0 .01" />
+            </svg>
+          </a>
+        </li>
+        <li> <a href="contacto.html">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="20"
+              height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+              <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+
+    </section>
+    <p>© 2000 creado por estudio JPC.901</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
